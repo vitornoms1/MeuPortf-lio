@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfólio | Vitor Noms</title>
 </head>
@@ -33,33 +34,33 @@
     <main>
 
         <div class="apresentacao">
+            <div class="foto-e-texto">
 
-            <p class="ola">Hello, I'm</p>
-
-            <p class="name">Vitor Noms</p>
-
-            <p class="dev">Developer Full Stack | JS | CSS | Node.js</p>
-
-            <p>
-
-                <a href="https://github.com/vitornoms1" target="_blank" class="github-button">GitHub</a>
-
-                <a href="https://www.linkedin.com/in/vitornoms-dev/" target="_blank" class="linkedin-button">LinkedIn</a>
-
-
-            </p>
-
+                <div class="texto-apresentacao">
+                    <p class="ola">Hello, I'm</p>
+                    <p class="name">Vitor Noms</p>
+                    <p class="dev">Developer Front End | JS | CSS | Node.js | Python | API's</p>
+                    <p>
+                        <a href="https://github.com/vitornoms1" target="_blank" class="github-button">GitHub</a>
+                        <a href="https://www.linkedin.com/in/vitornoms-dev/" target="_blank" class="linkedin-button">LinkedIn</a>
+                    </p>
+                </div>
+    
+                <div class="profile-container">
+                    <img src="icons/FOTO VITOR.jpeg" alt="Minha Foto de Perfil" class="profile-image">
+                </div>
+            </div>
         </div>
 
-        <div class="about-section">
+        <div class="about-section" id="sobre">
             <div class="about">
                 <h2>About Me</h2>
             </div>
-            <p class="history">Full Stack Developer with solid experience in developing modern web applications, combining performance, scalability and usability. I am proficient in JavaScript, CSS and relational and non-relational databases, with practical experience in both the front-end and back-end. On the front-end, I focus on creating responsive, reusable and accessible interfaces; on the back-end, I develop robust and secure APIs. I am enthusiastic about best practices, versioning with Git and clean architecture. I am passionate about programming and I constantly seek to evolve my skills, exploring new technologies and improving the quality of the solutions I develop.</p>
+            <p class="history">Developer Front End with solid experience in developing modern web applications, combining performance, scalability and usability. I am proficient in JavaScript, CSS and relational and non-relational databases, with practical experience in both the front-end and back-end. On the front-end, I focus on creating responsive, reusable and accessible interfaces; on the back-end, I develop robust and secure APIs. I am enthusiastic about best practices, versioning with Git and clean architecture. I am passionate about programming and I constantly seek to evolve my skills, exploring new technologies and improving the quality of the solutions I develop.</p>
         </div>
 
         <section class="skills-section" id="habilidades">
-            <h2>Habilidades</h2>
+            <h2>Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <img src="icons/html5.svg" alt="HTML5">
@@ -99,6 +100,58 @@
                 </div>
             </div>
         </section>
+
+        <section class="projects" id="projetos">
+
+            <h2 class="projects_title">Projects</h2>
+
+            <h2 class="titulo-destaque">Destaques</h2>
+
+            <div class="project-card">
+                <img src="images/Captura de tela 2025-05-15 223137.png" alt="Cinedex Print" class="project-image" />
+                <div class="project-info">
+                    <h3>Cinedex</h3>
+                    <div class="tech-icons">
+                        <i class="fab fa-js-square" title="JavaScript"></i>
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="contacts" id="contatos">
+
+            <h2>Contacts</h2>
+
+            <div class="contact-list">
+            <div class="contact-item">
+                <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                <h4>E-mail</h4>
+                <p>vitornoms@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon-circle"><i class="fas fa-phone"></i></div>
+                <h4>Telefone</h4>
+                <p>(51) 98349-4411</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon-circle"><i class="fab fa-linkedin-in"></i></div>
+                <h4>Linkedin</h4>
+                <p>@vitornoms-dev</p>
+            </div>
+            <div class="contact-item">
+                <div class="icon-circle"><i class="fab fa-github"></i></div>
+                <h4>Github</h4>
+                <p>@vitornoms1</p>
+            </div>
+        </div>
+
+        </section>
+
+
     </main>
     <script src="script.js"></script>
 </body>
